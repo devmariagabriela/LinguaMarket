@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Professor - LinguaMarket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="index.html">LinguaMarket</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#professores">Professores de Inglês</a></li>
+                    <li><a href="cadastro.html">Quero ser Professor</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="cadastro" class="cadastro">
+            <div class="container">
+                <h2>Cadastre-se como Professor</h2>
+                <p>Preencha o formulário para ter seu perfil divulgado no LinguaMarket e conectar-se diretamente com alunos.</p>
+
+                <form id="cadastro-form">
+                    <div class="form-group">
+                        <label for="nome">Nome Completo:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="idioma">Idioma Principal de Ensino:</label>
+                        <input type="text" id="idioma" name="idioma" value="Inglês" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="bio">Sua Biografia (resumida):</label>
+                        <textarea id="bio" name="bio" rows="4" placeholder="Fale sobre sua experiência, especialidade e metodologia."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="whatsapp">Número de WhatsApp (com DDD):</label>
+                        <input type="text" id="whatsapp" name="whatsapp" placeholder="Ex: 5511999999999" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="foto">Link para Foto de Perfil (URL):</label>
+                        <input type="url" id="foto" name="foto" placeholder="Ex: https://link-da-sua-foto.com/foto.jpg">
+                    </div>
+
+                    <button type="submit" class="btn-primary">Enviar Cadastro para Análise</button>
+                </form>
+
+                <p id="mensagem-sucesso" style="display:none; color: green; margin-top: 15px;">Seu cadastro foi enviado com sucesso! Entraremos em contato para a publicação do seu perfil. (Este é um protótipo estático.)</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 LinguaMarket. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
