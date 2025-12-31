@@ -46,3 +46,6 @@ Organização dos arquivos do projeto:
 ┣ 📄 style.css # Estilos visuais do projeto
 ┗ 📄 script.js # Lógica e interações em JavaScript
 
+---
+Desenvolvido por **MARIA GABI** 😼👍
+
